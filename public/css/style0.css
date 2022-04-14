@@ -1,0 +1,48 @@
+body{
+    background: url(/images/move.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 0 20px;
+}
+.landing{
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+}
+.title{
+    background-color: coral;
+    text-align:center;
+    color:black;
+    border-radius: 10px;
+    font: bold;
+}
+#black{
+    padding: 2px 10px;
+    margin: 2px 2px;
+}
+.continue{
+    background-color: blue;
+    display: block;
+    margin: 4px 9px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid brown;
+    padding:4px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline:none;
+    color: floralwhite;
+    font:bold;
+    font-size: 27px;
+    cursor: pointer;
+    transition: 0.5px;
+}
+.continue:hover{
+    background-color: lawngreen;
+    color:darkviolet;
+    box-shadow: 3px 3px 10px solid rgb(43, 226, 202);
+}

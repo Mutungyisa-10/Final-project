@@ -1,0 +1,25 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title PARKVILLE DAY AND EVENING PARKING
+  link(rel='stylesheet', href='/css/style.css')
+.login
+  form.verify(onsubmit='return validateForm()')
+    img.avatar(src='/images/avatar.png')
+    h1.value Login Here
+    br
+    label EMPLOYEE NAME
+    br
+    input.name(type='text', placeholder="Employee's name", name='fname', required='')
+    br
+    label Password
+    input(type='password', placeholder='Employee-password', name='password')
+    br
+    button(onclick='validate()', type='submit', name='')
+      a(href='/Home') Login
+    br
+    a(href='#') Forgot password?
+    a(href='/signup') Do not have an acount
+script(src='/js/login')

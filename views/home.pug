@@ -1,0 +1,66 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC', crossorigin='anonymous')
+  title
+    home-page
+  link(rel='stylesheet', href='/css/style3.css')
+nav
+  label.logo PARKVILLE
+  ul
+    li
+      a.active(href='#') Home
+    li
+      a(href='#') MECHANIC PART
+    li
+      a(href='#') Help
+    li
+      a(href='#') contact us
+    li
+      a(href='/login') logout
+  label#icon
+    i.fas.fa-bars
+  img#logo(src='/images/park.jpg', alt='logo')
+section
+  .row.row-cols-1.row-cols-md-2.g-4
+    .col
+      #tuck.card
+        img.image(src='/images/tuck.jfif', alt='truck')
+        .card-body
+          h5.card-title TRUCKS
+          p.card-text Register here for security purposes
+          a(href='/register')
+            button Register
+    .col
+      #personal.card
+        img.image(src='/images/pa.jfif', alt='...')
+        .card-body
+          h5.card-title PERSONAL CARS
+          p.card-text Register here for security purposes
+          a(href='/register')
+            button Register
+    .col
+      #taxi.card
+        img.image(src='/images/taxis.jpg', alt='...')
+        .card-body
+          h5.card-title TAXIS
+          p.card-text Register here for security purposes
+          a(href='/register')
+            button Register
+    .col
+      #coaster.card
+        img.image(src='/images/coster.jfif', alt='...')
+        .card-body
+          h5.card-title COASTERS
+          p.card-text Register here for security purposes
+          a(href='/register')
+            button Register
+    #boda.card(style='width: 18rem;')
+      img.image-me(src='/images/images.jfif', alt='BODA')
+      .card-body
+        h5.card-title BODA BODA
+        p.card-text Register here for security purposes
+        a(href='/register')
+          button Register

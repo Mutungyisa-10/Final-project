@@ -1,0 +1,45 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet', href='/css/style4.css')
+.regform
+  h1 Registeration form
+.main
+  form
+    #name
+      h2.name Name of the driver
+      input.firstname(type='text', name='first_name')
+      label.firstlabel first name
+      input.lastname(type='text', name='last_name')
+      label.lastlabel last name
+    h2.name Color time of Arrival
+    input.company(type='text', name='company')
+    h2.name Number plate
+    input.email(type='text', name='email')
+    h2.name Details
+    input.code(type='text', name=' area_code')
+    label.area-code Date
+    input.number(type='text', name='phone')
+    label.phone-number Phone number
+    h2.name Model
+    input.Model(type='text', name='company')
+    h2.name Charges
+    select.option(name='subject')
+      option(disabled='disabled', selected='selected') --choose option
+      option Day:5000
+      option Night:10,000
+      option less than 3hours:2000
+    h2#student First time to use here
+    label.radio
+      input.radio-one(type='radio', name='')
+      span.checkmark
+      |                 Yes
+    label.radio
+      input.radio-two(type='radio', name='')
+      span.checkmark
+      |                 No
+    button(type='submit')
+      a(href='/home') Register
